@@ -1,0 +1,17 @@
+
+
+#imagemUsuario{
+    height: 70px;
+}
+
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+#imgRestaurante{
+    padding-top: 60%;
+}
