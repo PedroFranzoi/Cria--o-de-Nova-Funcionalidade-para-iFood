@@ -26,9 +26,26 @@
 
 .descricao{
     margin: 2% 0%;
+    color: black;
 }
 
 .titulo{
     margin: 2% 0%;
     padding-top: 15%;
+    color: black;
+}
+
+#central{
+    text-align: center;
+}
+
+#quadradoCentral{
+    background-color: black;
+    border-radius: 30px;
+}
+
+#pesquisa{
+    margin: 10%;
+    background-color: gray;
+    border-radius: 30px;
 }
