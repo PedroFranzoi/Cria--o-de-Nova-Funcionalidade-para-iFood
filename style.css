@@ -19,5 +19,16 @@
 .iconeTamanho{
     height: 30px;
     margin: 0%;
-    padding-top: 20%;
+    padding-top: 100%;
+    border: 10px;
+    border-color: slategray;
+}
+
+.descricao{
+    margin: 2% 0%;
+}
+
+.titulo{
+    margin: 2% 0%;
+    padding-top: 15%;
 }
