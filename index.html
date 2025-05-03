@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="scripts/trocraRestaurante.js"></script>
     <title>iFood</title>
 </head>
+
 <body>
     <header>
         <div class="flex">
@@ -15,11 +17,13 @@
             </div>
             <div class="grid">
                 <h3>Nome de Usuario</h3>
-                <h4>Cliente Fiel Do:</h4>
+                <div class="flex">
+                    <h4>Cliente Fiel Do:</h4>
+                    <h4 id="demo">Nada</h4>
+                </div>
+
             </div>
-            <div class="flex">
-                <img id="imgRestaurante" src="" alt="Logo Do Restaurante">
-            </div>
+        
         </div>
     </header>
 
@@ -45,7 +49,7 @@
                 <div>
                     <a href="clienteFiel/escolhaRestaurante.html">
                         <img class="iconeTamanho" src="img/icones/clienteFiel.png" alt="Icone De Cliente Fiel">
-                    </a>                
+                    </a>
                 </div>
 
                 <div>
@@ -57,7 +61,7 @@
                 <div>
                     <h4 class="titulo">Conversas</h4>
                     <h5 class="descricao">Meu histórico de conversas</h5>
-        
+
                     <h4 class="titulo">Notificações</h4>
                     <h5 class="descricao">Minha central de notificações</h5>
 
@@ -71,19 +75,25 @@
                         <h4 class="titulo">Cliente fiel</h4>
                         <h5 class="descricao">Meu lugar favorito</h5>
                     </a>
-                   
+
                     <h4 class="titulo">Cupons</h4>
                     <h5 class="descricao">Meus cupons de desconto</h5>
                 </div>
             </div>
 
         </div>
-        
+
+
+        <div id="botao">
+            <button type="button" onclick="document.getElementById('demo').innerHTML = 'Pizzaria do Robson'">Atualizar</button>
+        </div>
+
     </main>
 
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>

@@ -13,7 +13,7 @@
 }
 
 #imgRestaurante{
-    padding-top: 60%;
+    padding-top: 50%;
 }
 
 .iconeTamanho{
@@ -48,4 +48,37 @@
     margin: 10%;
     background-color: gray;
     border-radius: 30px;
+}
+
+.icone{
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 25%;
+}
+
+#textoCentral{
+    text-align: center;
+    padding-left: 40%;
+}
+
+.restaurante{
+    background-color: rgba(255, 240, 245, 0.644);
+    border-radius: 30px;
+    margin: 10%;
+    padding-left: 10px;
+}
+
+.nomeRestaurante{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.logoRestaurante{
+    height: 70px;
+    margin: 5px;
+    padding-left: 60px;
+}
+
+#botao{
+    padding-left: 80%;
 }
